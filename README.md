@@ -1,28 +1,26 @@
-# Street•Zone Legal Documentation
+# Street?Zones Legal Documentation
 
-This repository hosts the legal documentation for the **Street•Zone** mobile app, accessible at:
+This repository hosts the legal documentation for **Street?Zones** mobile app.
 
-**🔗 Live Site**: [https://yourusername.github.io/streetzone-legal/](https://yourusername.github.io/streetzone-legal/)
-
-## 📄 Documents
+## Documents
 
 - **Privacy Policy**: How we collect, use, and protect your data
-- **Terms of Service**: Rules and guidelines for using Street•Zone
+- **Terms of Service**: Rules and guidelines for using Street?Zones
 - **Accessibility Statement**: Our commitment to WCAG 2.1 AA compliance
 
-## 🚀 Deployment
+## Deployment
 
 This site is hosted on **GitHub Pages** and automatically deploys from the `main` branch.
 
 **Last Updated**: October 19, 2025
 
-## 📧 Contact
+## Contact
 
 Questions about our legal policies? Contact us at:
-- **Privacy**: privacy@streetzone.app
-- **General**: legal@streetzone.app
-- **Accessibility**: accessibility@streetzone.app
+- **Privacy**: streetzones@agileInnov.com
+- **General**: streetzones@agileInnov.com
+- **Accessibility**: streetzones@agileInnov.com
 
 ---
 
-**Street•Zone** - The Parking Ticket Defense System
+**Street?Zones** - The Parking Ticket Defense System
