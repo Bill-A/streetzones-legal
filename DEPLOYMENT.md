@@ -1,4 +1,4 @@
-# Street•Zone Legal Documentation - Deployment Guide
+# Street•Zones Legal Documentation - Deployment Guide
 
 ## 🚀 Quick Start
 
@@ -7,7 +7,7 @@
 Go to: https://github.com/new
 
 **Settings:**
-- Repository name: `streetzone-legal`
+- Repository name: `streetzones-legal`
 - Visibility: **PUBLIC** (required for free GitHub Pages)
 - ❌ Do NOT check "Add a README file"
 - Click "Create repository"
@@ -17,16 +17,16 @@ Go to: https://github.com/new
 Replace `yourusername` with your actual GitHub username:
 
 ```bash
-cd /Volumes/NVME_Macintosh/SoftwareProjects/streetzone-legal
+cd /Volumes/NVME_Macintosh/SoftwareProjects/streetzones-legal
 
-git remote add origin https://github.com/yourusername/streetzone-legal.git
+git remote add origin https://github.com/yourusername/streetzones-legal.git
 git branch -M main
 git push -u origin main
 ```
 
 ### Step 3: Enable GitHub Pages
 
-1. Go to: `https://github.com/yourusername/streetzone-legal/settings/pages`
+1. Go to: `https://github.com/yourusername/streetzones-legal/settings/pages`
 2. **Source**: Deploy from a branch
 3. **Branch**: `main`
 4. **Folder**: `/ (root)`
@@ -35,8 +35,8 @@ git push -u origin main
 ### Step 4: Wait for Deployment
 
 - Deployment takes ~1 minute
-- Check deployment status: `https://github.com/yourusername/streetzone-legal/deployments`
-- Site will be available at: `https://yourusername.github.io/streetzone-legal/`
+- Check deployment status: `https://github.com/yourusername/streetzones-legal/deployments`
+- Site will be available at: `https://yourusername.github.io/streetzones-legal/`
 
 ---
 
@@ -46,17 +46,17 @@ After deployment, use these URLs (replace `yourusername`):
 
 **Privacy Policy:**
 ```
-https://yourusername.github.io/streetzone-legal/privacy-policy.html
+https://yourusername.github.io/streetzones-legal/privacy-policy.html
 ```
 
 **Terms of Service:**
 ```
-https://yourusername.github.io/streetzone-legal/terms-of-service.html
+https://yourusername.github.io/streetzones-legal/terms-of-service.html
 ```
 
 **Accessibility Statement:**
 ```
-https://yourusername.github.io/streetzone-legal/accessibility.html
+https://yourusername.github.io/streetzones-legal/accessibility.html
 ```
 
 ---
@@ -74,7 +74,7 @@ cd /Volumes/NVME_Macintosh/SoftwareProjects/rn_workspace/street-zone/legal-site
 bash /Volumes/NVME_Macintosh/SoftwareProjects/rn_workspace/street-zone/scripts/setup-legal-repo.sh
 
 # 3. Push updates to GitHub
-cd /Volumes/NVME_Macintosh/SoftwareProjects/streetzone-legal
+cd /Volumes/NVME_Macintosh/SoftwareProjects/streetzones-legal
 git add .
 git commit -m "Update legal documentation"
 git push
@@ -88,7 +88,7 @@ git push
 
 After deployment, verify:
 
-- [ ] Landing page loads: `https://yourusername.github.io/streetzone-legal/`
+- [ ] Landing page loads: `https://yourusername.github.io/streetzones-legal/`
 - [ ] Privacy Policy loads and renders correctly
 - [ ] Terms of Service loads and renders correctly
 - [ ] Accessibility Statement loads and renders correctly
