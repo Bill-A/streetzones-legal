@@ -34,7 +34,7 @@
 <h1 class="title">Privacy Policy</h1>
 </header>
 <p><strong>Effective Date</strong>: October 15, 2025 <strong>Last
-Updated</strong>: October 19, 2025 <strong>Version</strong>: 2.1</p>
+Updated</strong>: October 23, 2025 <strong>Version</strong>: 2.1</p>
 <hr />
 <h2 id="introduction">Introduction</h2>
 <p>StreetZones (“we,” “our,” or “us”) is committed to protecting your
@@ -63,45 +63,56 @@ use our App.</p>
 <li>❌ Social security number</li>
 </ul>
 <h3 id="location-data">1.2 Location Data</h3>
-<p><strong>When You Use the App:</strong> - <strong>Current
-Location</strong>: We access your device’s GPS location to: - Tag
-parking zone submissions with coordinates - Calculate distance to
-enforcement alerts - Filter push notifications by proximity
-(geofencing)</p>
-<p><strong>Important Privacy Safeguards:</strong> - ✅ <strong>Location
-is NEVER tracked in the background</strong> - ✅ <strong>No location
-history is stored on our servers</strong> - ✅ <strong>No movement
-patterns are tracked</strong> - ✅ <strong>Geofencing filtering happens
-ON YOUR DEVICE</strong> (not server-side) - ✅ Only the
-<strong>distance</strong> between you and an alert is calculated, NOT
-your absolute GPS coordinates</p>
+<p><strong>When You Use the App:</strong></p>
+<ul>
+<li><strong>Current Location</strong>: We access your device's GPS location to:
+<ul>
+<li>Tag parking zone submissions with coordinates</li>
+<li>Calculate distance to enforcement alerts</li>
+<li>Filter push notifications by proximity (geofencing)</li>
+</ul>
+</li>
+</ul>
+<p><strong>Important Privacy Safeguards:</strong></p>
+<ul>
+<li>✅ <strong>Location is NEVER tracked in the background</strong></li>
+<li>✅ <strong>No location history is stored on our servers</strong></li>
+<li>✅ <strong>No movement patterns are tracked</strong></li>
+<li>✅ <strong>Geofencing filtering happens ON YOUR DEVICE</strong> (not server-side)</li>
+<li>✅ Only the <strong>distance</strong> between you and an alert is calculated, NOT your absolute GPS coordinates</li>
+</ul>
 <h3 id="camera-and-photo-library">1.3 Camera and Photo Library</h3>
-<p><strong>When You Capture Zone Signs:</strong> - We access your
-device’s camera to photograph parking zone signs - Photos are uploaded
-to our servers for OCR (Optical Character Recognition) processing - You
-can review and delete photos before submission - We access your photo
-library only to save captured photos (if you choose)</p>
+<p><strong>When You Capture Zone Signs:</strong></p>
+<ul>
+<li>We access your device's camera to photograph parking zone signs</li>
+<li>Photos are uploaded to our servers for OCR (Optical Character Recognition) processing</li>
+<li>You can review and delete photos before submission</li>
+<li>We access your photo library only to save captured photos (if you choose)</li>
+</ul>
 <h3 id="push-notification-data">1.4 Push Notification Data</h3>
-<p><strong>When You Enable Notifications:</strong> - We collect your
-<strong>Expo Push Token</strong> to send enforcement alerts - We store
-your <strong>notification preferences</strong> (alert radius (in miles),
-work hours, weekends) - We track <strong>notification delivery
-metrics</strong> (displayed vs dismissed) for analytics</p>
+<p><strong>When You Enable Notifications:</strong></p>
+<ul>
+<li>We collect your <strong>Expo Push Token</strong> to send enforcement alerts</li>
+<li>We store your <strong>notification preferences</strong> (alert radius (in miles), work hours, weekends)</li>
+<li>We track <strong>notification delivery metrics</strong> (displayed vs dismissed) for analytics</li>
+</ul>
 <h3 id="usage-data">1.5 Usage Data</h3>
-<p><strong>Automatically Collected:</strong> - <strong>Device
-Information</strong> (collected via Expo SDK framework): -
-<strong>Device ID</strong>: Anonymous identifier from Expo Constants
-(used for analytics session tracking only) - <strong>Platform</strong>:
-iOS or Android operating system - <strong>App Version</strong>: Current
-version number (e.g., “1.0.0”) - <strong>Build Number</strong>: Internal
-build identifier (e.g., “39”) - <strong>OS Version</strong>: Operating
-system version (e.g., “iOS 17.5”) - <strong>Expo SDK Version</strong>:
-Framework version for compatibility tracking - <strong>Note</strong>:
-Device ID is an anonymous identifier that cannot be linked back to you
-personally. It is NOT an advertising identifier (IDFA/AAID). -
-<strong>Analytics Events</strong>: App opens, feature usage, OCR success
-rates - <strong>Error Logs</strong>: Crash reports and error diagnostics
-(anonymous)</p>
+<p><strong>Automatically Collected:</strong></p>
+<ul>
+<li><strong>Device Information</strong> (collected via Expo SDK framework):
+<ul>
+<li><strong>Device ID</strong>: Anonymous identifier from Expo Constants (used for analytics session tracking only)</li>
+<li><strong>Platform</strong>: iOS or Android operating system</li>
+<li><strong>App Version</strong>: Current version number (e.g., "1.0.0")</li>
+<li><strong>Build Number</strong>: Internal build identifier (e.g., "39")</li>
+<li><strong>OS Version</strong>: Operating system version (e.g., "iOS 17.5")</li>
+<li><strong>Expo SDK Version</strong>: Framework version for compatibility tracking</li>
+<li><strong>Note</strong>: Device ID is an anonymous identifier that cannot be linked back to you personally. It is NOT an advertising identifier (IDFA/AAID).</li>
+</ul>
+</li>
+<li><strong>Analytics Events</strong>: App opens, feature usage, OCR success rates</li>
+<li><strong>Error Logs</strong>: Crash reports and error diagnostics (anonymous)</li>
+</ul>
 <p><strong>NOT Collected:</strong></p>
 <ul>
 <li>❌ Browsing history</li>
@@ -145,12 +156,14 @@ enforcement reports</li>
 </ul>
 <h3 id="geofenced-notifications-option-5">2.4 Geofenced Notifications
 (Option 5)</h3>
-<p><strong>Privacy-First Architecture:</strong> 1. Server broadcasts
-enforcement alert to ALL users 2. Notification arrives on YOUR DEVICE
-with alert GPS coordinates 3. YOUR DEVICE calculates distance using the
-Haversine formula 4. YOUR DEVICE decides to show or dismiss based on
-YOUR radius preference 5. <strong>Your location NEVER leaves your device
-during this process</strong></p>
+<p><strong>Privacy-First Architecture:</strong></p>
+<ol type="1">
+<li>Server broadcasts enforcement alert to ALL users</li>
+<li>Notification arrives on YOUR DEVICE with alert GPS coordinates</li>
+<li>YOUR DEVICE calculates distance using the Haversine formula</li>
+<li>YOUR DEVICE decides to show or dismiss based on YOUR radius preference</li>
+<li><strong>Your location NEVER leaves your device during this process</strong></li>
+</ol>
 <hr />
 <h2 id="how-we-share-your-information">3. How We Share Your
 Information</h2>
@@ -234,10 +247,13 @@ policy.</p>
 <li>✅ <strong>Access Controls</strong>: Role-based access controls (RBAC) for admin users</li>
 <li>✅ <strong>Regular Backups</strong>: Daily encrypted backups stored in secure cloud infrastructure</li>
 </ul>
-<p><strong>Organizational Safeguards:</strong> - ✅ Minimal data
-collection (privacy by design) - ✅ Data minimization (we only keep
-what’s necessary) - ✅ Regular security audits - ✅ Employee training on
-data protection</p>
+<p><strong>Organizational Safeguards:</strong></p>
+<ul>
+<li>✅ Minimal data collection (privacy by design)</li>
+<li>✅ Data minimization (we only keep what's necessary)</li>
+<li>✅ Regular security audits</li>
+<li>✅ Employee training on data protection</li>
+</ul>
 <h3 id="data-retention">4.2 Data Retention</h3>
 <table>
 <colgroup>
@@ -310,20 +326,14 @@ time</li>
 privacy@streetzones.app (placeholder email)</p>
 <h3 id="ccpa-rights-california-users">5.2 CCPA Rights (California
 Users)</h3>
-<p>If you are a California resident, you have the following rights under
-the California Consumer Privacy Act (CCPA):</p>
+<p>If you are a California resident, you have the following rights under the California Consumer Privacy Act (CCPA):</p>
 <ol type="1">
-<li><strong>Right to Know</strong>: What personal information we
-collect, use, and share</li>
-<li><strong>Right to Delete</strong>: Request deletion of your personal
-information</li>
-<li><strong>Right to Opt-Out</strong>: Opt-out of the “sale” of personal
-information (we don’t sell data)</li>
-<li><strong>Right to Non-Discrimination</strong>: We will not
-discriminate against you for exercising your rights</li>
+<li><strong>Right to Know</strong>: What personal information we collect, use, and share</li>
+<li><strong>Right to Delete</strong>: Request deletion of your personal information</li>
+<li><strong>Right to Opt-Out</strong>: Opt-out of the "sale" of personal information (we don't sell data)</li>
+<li><strong>Right to Non-Discrimination</strong>: We will not discriminate against you for exercising your rights</li>
 </ol>
-<p><strong>To exercise these rights</strong>, contact us at:
-privacy@streetzones.app</p>
+<p><strong>To exercise these rights</strong>, contact us at: privacy@streetzones.app</p>
 <h3 id="how-to-delete-your-data">5.3 How to Delete Your Data</h3>
 <p><strong>Option 1: In-App Account Deletion</strong></p>
 <ol>
@@ -380,12 +390,12 @@ privacy@streetzones.app</p>
 Transfers</h2>
 <p><strong>Primary Data Storage</strong>: United States (Supabase US
 region)</p>
-<p>If you are accessing the App from outside the United States, your
-information may be transferred to, stored, and processed in the United
-States. By using the App, you consent to such transfers.</p>
-<p><strong>EU Users</strong>: Data transfers comply with GDPR through: -
-Standard Contractual Clauses (SCCs) - Adequate safeguards as recognized
-by the European Commission</p>
+<p>If you are accessing the App from outside the United States, your information may be transferred to, stored, and processed in the United States. By using the App, you consent to such transfers.</p>
+<p><strong>EU Users</strong>: Data transfers comply with GDPR through:</p>
+<ul>
+<li>Standard Contractual Clauses (SCCs)</li>
+<li>Adequate safeguards as recognized by the European Commission</li>
+</ul>
 <hr />
 <h2 id="third-party-links">8. Third-Party Links</h2>
 <p>The App may contain links to third-party websites or services (e.g.,
@@ -419,34 +429,41 @@ Notifications → OFF</li>
 <hr />
 <h2 id="analytics-and-tracking">10. Analytics and Tracking</h2>
 <h3 id="what-we-track">10.1 What We Track</h3>
-<p><strong>PostHog Analytics:</strong> - App opens/closes - Feature
-usage (zone lookups, enforcement reports, camera scans) - Screen views -
-OCR success rates - Geofence notification metrics (displayed vs
-dismissed)</p>
-<p><strong>What We DON’T Track:</strong> - ❌ Advertising identifiers
-(IDFA/AAID) - ❌ Cross-app tracking - ❌ Third-party advertising - ❌
-Personally identifiable information</p>
+<p><strong>PostHog Analytics:</strong></p>
+<ul>
+<li>App opens/closes</li>
+<li>Feature usage (zone lookups, enforcement reports, camera scans)</li>
+<li>Screen views</li>
+<li>OCR success rates</li>
+<li>Geofence notification metrics (displayed vs dismissed)</li>
+</ul>
+<p><strong>What We DON'T Track:</strong></p>
+<ul>
+<li>❌ Advertising identifiers (IDFA/AAID)</li>
+<li>❌ Cross-app tracking</li>
+<li>❌ Third-party advertising</li>
+<li>❌ Personally identifiable information</li>
+</ul>
 <h3 id="how-to-opt-out">10.2 How to Opt-Out</h3>
 <p>Currently, analytics are essential for app functionality and quality
 assurance. Future versions may include an opt-out option.</p>
 <hr />
-<h2 id="changes-to-this-privacy-policy">11. Changes to This Privacy
-Policy</h2>
-<p>We may update this Privacy Policy from time to time. We will notify
-you of material changes by: - Posting the new Privacy Policy in the App
-- Updating the “Last Updated” date - Sending an in-app notification (for
-significant changes)</p>
+<h2 id="changes-to-this-privacy-policy">11. Changes to This Privacy Policy</h2>
+<p>We may update this Privacy Policy from time to time. We will notify you of material changes by:</p>
+<ul>
+<li>Posting the new Privacy Policy in the App</li>
+<li>Updating the "Last Updated" date</li>
+<li>Sending an in-app notification (for significant changes)</li>
+</ul>
 <p><strong>Your continued use of the App after changes constitutes
 acceptance of the updated Privacy Policy.</strong></p>
 <hr />
 <h2 id="contact-us">12. Contact Us</h2>
-<p>If you have questions or concerns about this Privacy Policy, please
-contact us:</p>
-<p><strong>Email</strong>: privacy@streetzones.app
-<strong>Website</strong>: https://streetzones.app <strong>App
-Version</strong>: 1.0.0 (Build 39)</p>
-<p><strong>For Data Protection Officer (DPO) inquiries</strong>:
-dpo@streetzones.app</p>
+<p>If you have questions or concerns about this Privacy Policy, please contact us:</p>
+<p><strong>Email</strong>: privacy@streetzones.app<br />
+<strong>Website</strong>: https://streetzones.app<br />
+<strong>App Version</strong>: 1.0.0 (Build 39)</p>
+<p><strong>For Data Protection Officer (DPO) inquiries</strong>: dpo@streetzones.app</p>
 <hr />
 <h2 id="legal-basis-for-processing-gdpr">13. Legal Basis for Processing
 (GDPR)</h2>
@@ -473,7 +490,7 @@ California</li>
 <li>✅ <strong>Google Play Store</strong> Guidelines</li>
 </ul>
 <hr />
-<p><strong>Last reviewed and approved</strong>: October 19, 2025</p>
+<p><strong>Last reviewed and approved</strong>: October 23, 2025</p>
 <p><strong>Version 2.1 Changes</strong>: Updated age restrictions from 13+ to 16+ with driving disclaimers. Added safety warnings for drivers and legal representation requirements.</p>
 <p><strong>Version 2.0 Changes</strong>: Updated to reflect account-based authentication system (name, username, email, password collection). Replaced anonymous device-based system with required account registration.</p>
 <p><strong>This Privacy Policy was prepared in consultation with privacy
